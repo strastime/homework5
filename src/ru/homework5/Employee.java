@@ -22,7 +22,6 @@ public class Employee {
 
     }
 
-
     public static void main(String[] args) {
 
        // Employee employee1 = new Employee("Иван Петрович Барсиков", "Директор", "dir@cat.com", 49588293,30000,30);
@@ -41,13 +40,10 @@ public class Employee {
                 printInfo(People[i]);
                 b++;
             }
-
         }
         if (b == 0){
             System.out.println("Людей старше 40 не нашлось");
         }
-
-
     }
 
     private static void printInfo (Employee People){
@@ -57,6 +53,5 @@ public class Employee {
                  People.FIO, People.Position,People.Email,People.Phone, People.Salery, People.Age);
 
     }
-
 
 }
